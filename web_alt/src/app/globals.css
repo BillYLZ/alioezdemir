@@ -1,0 +1,300 @@
+@import "tailwindcss";
+
+/* Farben + Breakpoints aus dem alten Contao-Theme (files/oezdemirTheme/master.less) */
+@theme {
+  --color-brand: #5d3387;
+  --color-brand-dark: #462667;
+  --color-ink: #4b4b4b;
+  --color-nav: #6c6c6b;
+  --color-line: #c9c9c7;
+  --color-panel: #d7d7d7;
+  --color-taupe: #9d9a98;
+  --color-slate-ui: #595957;
+
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+
+  /* master.less: 460 / 767 / 860 / 970 / 1260 (max-width) -> min-width */
+  --breakpoint-xs: 461px;
+  --breakpoint-md: 768px;
+  --breakpoint-mid: 861px;
+  --breakpoint-lg: 971px;
+  --breakpoint-xl: 1261px;
+}
+
+@layer base {
+  /* body: 532px dunkler Verlauf (base64-PNG im Theme), danach weiss */
+  body {
+    background: #fff linear-gradient(#4b4b4b, #5b5b5b) repeat-x 0 0 / 1px 532px;
+    color: var(--color-ink);
+    font-size: 14px;
+    line-height: normal;
+    overflow-x: hidden;
+  }
+
+  a {
+    color: var(--color-brand);
+  }
+  a:hover,
+  a:focus-visible {
+    text-decoration: underline;
+  }
+}
+
+@layer components {
+  /* ---------------------------------------------------------- Header */
+
+  .mod_contact p {
+    margin: 0;
+    line-height: 1.6em;
+  }
+  .mod_contact strong {
+    color: var(--color-brand);
+  }
+
+  .mod_navigation > ul {
+    border-top: 1px solid #c4c4c4;
+    padding: 10px;
+    text-align: center;
+  }
+  /* inline-block statt inline: React rendert keine Leerzeichen zwischen den li */
+  .mod_navigation > ul > li {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  .mod_navigation > ul > li:first-child {
+    margin-left: 0;
+  }
+  .mod_navigation > ul > li > a {
+    color: var(--color-nav);
+    font-size: 1.077em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .mod_navigation > ul > li > a:hover,
+  .mod_navigation > ul > li > a:focus-visible,
+  .mod_navigation > ul > li > a.trail {
+    color: var(--color-brand);
+  }
+  .mod_navigation li > ul {
+    display: none;
+  }
+
+  @variant md {
+    .mod_navigation > ul {
+      padding: 10px 0 0;
+      text-align: left;
+    }
+    .mod_navigation > ul > li {
+      position: relative;
+      float: left;
+      padding-bottom: 10px;
+    }
+    .mod_navigation > ul::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  /* Dropdown nur ab 971px (master.less: <=970 kein Hover-Menue) */
+  @variant lg {
+    .mod_navigation li:hover > ul,
+    .mod_navigation li:focus-within > ul {
+      display: block;
+    }
+    .mod_navigation li > ul {
+      position: absolute;
+      left: 0;
+      top: 30px;
+      z-index: 103;
+      min-width: max-content;
+    }
+    .mod_navigation li > ul > li {
+      position: relative;
+      margin: 0 0 1px;
+      padding: 3px 7px;
+      background-color: rgb(89 89 87 / 0.9);
+      transition: all linear 100ms;
+    }
+    .mod_navigation li > ul > li:first-child::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: -16px;
+      border: 8px solid transparent;
+      border-bottom-color: rgb(89 89 87 / 0.9);
+      transition: all linear 100ms;
+    }
+    .mod_navigation li > ul > li:hover,
+    .mod_navigation li > ul > li.active {
+      background-color: rgb(140 140 138 / 0.9);
+    }
+    .mod_navigation li > ul > li:first-child:hover::before,
+    .mod_navigation li > ul > li:first-child.active::before {
+      border-bottom-color: rgb(140 140 138 / 0.9);
+    }
+    .mod_navigation li > ul a {
+      display: block;
+      color: #fff;
+      font-size: 1.077em;
+      text-decoration: none;
+    }
+  }
+
+  .mod_artwork1 {
+    position: absolute;
+    left: -50px;
+    bottom: -18px;
+    width: 1280px;
+    height: 56px;
+    background: url(/files/oezdemirTheme/artwork1.png) 0 0 / cover;
+    z-index: 101;
+    pointer-events: none;
+  }
+
+  /* Bildunterschrift im Header-Bild/Slider */
+  .header-caption {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 389px;
+    padding: 10px 60px 10px 40px;
+    box-sizing: content-box;
+    color: rgb(89 89 87 / 0.8);
+    font-weight: 300;
+    font-size: 1.667em;
+    line-height: normal;
+    background: url(/files/oezdemirTheme/banner2.png) right top;
+  }
+
+  /* ---------------------------------------------------------- Inhalt (tl_content) */
+
+  .richtext h1,
+  .richtext h2,
+  .richtext h3 {
+    color: var(--color-ink);
+    font-weight: 300;
+    font-size: 1.5em;
+  }
+  .richtext h1 {
+    font-size: 1.667em;
+    margin: 0.67em 0;
+    text-transform: uppercase;
+  }
+  .richtext h2 {
+    margin: 0.83em 0;
+    padding-bottom: 0.6em;
+    border-bottom: 3px solid var(--color-line);
+    text-transform: uppercase;
+  }
+  .richtext h3 {
+    margin: 1em 0;
+  }
+  .richtext h4 {
+    font-weight: 700;
+    margin: 1.33em 0;
+  }
+  .richtext p {
+    margin: 1em 0;
+    line-height: 1.6em;
+  }
+  .richtext ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+  }
+  .richtext ul li {
+    padding-bottom: 5px;
+  }
+  .richtext ol {
+    margin: 1em 0;
+    padding-left: 40px;
+    list-style: decimal;
+  }
+  .richtext strong,
+  .richtext b {
+    font-weight: 700;
+  }
+  .richtext em,
+  .richtext i {
+    font-style: italic;
+  }
+  .richtext table {
+    border-collapse: collapse;
+  }
+  .richtext td,
+  .richtext th {
+    padding: 1px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  /* Artikel-Klasse "braun" */
+  .braun .richtext h1,
+  .braun .richtext p,
+  .braun .richtext ul {
+    margin-top: 0;
+    color: #fff;
+  }
+
+  /* Willkommen-Element der Startseite: Welle unter der Ueberschrift */
+  .ce_willkommen .richtext h1 {
+    margin: 20px 0;
+  }
+  .ce_willkommen .mod_artwork2 {
+    display: none;
+  }
+  @variant mid {
+    .ce_willkommen .richtext h1 {
+      margin: 0 0 60px;
+    }
+    .ce_willkommen .mod_artwork2 {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 120px;
+      width: 716px;
+      height: 21px;
+      background: url(/files/oezdemirTheme/artwork2.png) 0 0 / cover;
+      z-index: 201;
+      font-size: 0;
+    }
+    .ce_willkommen figure {
+      position: relative;
+      z-index: 202;
+    }
+  }
+
+  /* ---------------------------------------------------------- rechte Spalte */
+
+  .sidenav h3 {
+    margin: 1em 0 5px;
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  .sidenav a {
+    display: block;
+    padding: 5px 7px;
+    font-size: 1.077em;
+    font-weight: 600;
+    color: var(--color-brand);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-line);
+    transition: all linear 100ms;
+  }
+  .sidenav a:hover,
+  .sidenav a:focus-visible,
+  .sidenav a.trail {
+    background: #b6b6b6;
+  }
+  .sidenav ul ul a {
+    padding: 3px 7px 3px 23px;
+    font-weight: 400;
+  }
+  .sidenav ul ul a:hover,
+  .sidenav ul ul a:focus-visible,
+  .sidenav ul ul a.trail {
+    background: #cacaca;
+  }
+}

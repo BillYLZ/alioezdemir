@@ -1,0 +1,2374 @@
+{
+  "exportedAt": "2026-10-03T17:28:21.170Z",
+  "source": "oez_praxis",
+  "modules": {
+    "2": {
+      "name": "Copyright",
+      "html": "<div class=\"mod_copyright\">\n\t<p>© Zahnarztpraxis Ali Özdemir MSc &nbsp;|&nbsp; <a href=\"/datenschutz\">Datenschutz</a> &nbsp;|&nbsp; <a href=\"/impressum\">Impressum</a></p>\n</div>"
+    },
+    "3": {
+      "name": "Logo",
+      "html": "<div class=\"mod_logo\">\n\t<img src=\"/files/oezdemirTheme/logo.png\" alt=\"Zahnarztpraxis Özdemir\" width=\"267px\" height=\"109px\">\n</div>"
+    },
+    "5": {
+      "name": "Kontakt",
+      "html": "<div class=\"mod_contact desktop\">\n\t<p>Kunzendorfer Str. 6 | 31224 Peine-Essinghausen | <strong>T. <a href=\"tel:00495171581320\">05171 - 581 320</a></strong></p>\n\t<p>Sprechzeiten: Mo: 8-17 Uhr | Di, Do: 8-13 und 15-19 Uhr | Mi, Fr: 8-13 Uhr</p>\n</div>"
+    },
+    "6": {
+      "name": "Artwork 1",
+      "html": "<div class=\"mod_artwork1\"></div>"
+    },
+    "7": {
+      "name": "Header",
+      "html": "<div class=\"mod_grouped\">\n\t\n\t\n\t\n\t\n\t\n</div>"
+    },
+    "8": {
+      "name": "Artwork 2",
+      "html": "<div class=\"mod_artwork2\"></div>"
+    },
+    "11": {
+      "name": "Kontakt Mobil",
+      "html": "<div class=\"mod_contact mobil\">\n\t<p>Kunzendorfer Str. 6 | 31224 Peine-Essinghausen <br> <strong>T. <a href=\"tel:00495171581320\">05171 - 581 320</a></strong></p>\n\t<p>Sprechzeiten: Mo: 8-17 Uhr | Di, Do: 8-13 und 15-19 Uhr <br> Mi, Fr: 8-13 Uhr</p>\n</div>"
+    }
+  },
+  "pages": [
+    {
+      "id": 2,
+      "pid": 1,
+      "type": "regular",
+      "alias": "startseite",
+      "url": "/",
+      "title": "Startseite",
+      "pageTitle": "Startseite",
+      "description": "HERZLICH WILLKOMMEN IN DER PRAXIS VON ZAHNARZT ALI ÖZDEMIR IN PEINE. Wir bieten Ihnen ein modernes, ganzheitliches Praxiskonzept an, das auf Zahnerhaltung, professionelle Prophylaxe, hochwertigen Zahnersatz und Wurzelkanalbehandlung spezialisiert ist. „Die eigenen Zähne sind die besten Implantate!“",
+      "published": true,
+      "hide": false,
+      "sorting": 128,
+      "articles": [
+        {
+          "id": 10,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 13,
+              "type": "slider",
+              "delay": 4000,
+              "elements": [
+                {
+                  "id": 143,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/01.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 175,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/_LHA0225h.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Alle reden von Qualität - <br>wir machen Sie.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 144,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/02.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 176,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/_LHA0517.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Endodontie - <br>die Alternative zu Implantaten.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 16,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/03.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 174,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/_LHA0125h.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Zahnerhalt <br>mit Konzept.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 87,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/04.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 173,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/_LHA0324.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Die eigenen Zähne <br>sind die besten Implantate.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 17,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/05.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 172,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/_LHA0283.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Die eigenen sind <br>doch die Besten.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 88,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/06.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 177,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/Ausschnitt/Ausschnitt.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Zahnerhalt vor Zahnersatz.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 85,
+                  "hidden": true,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/07.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                },
+                {
+                  "id": 170,
+                  "type": "image",
+                  "image": {
+                    "src": "/files/header/_LHA0501.jpg",
+                    "alt": "",
+                    "title": "",
+                    "caption": "Langer Zahnerhalt ist möglich - <br>mit Konzept.",
+                    "href": "",
+                    "fullsize": false,
+                    "floating": "above"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Braun",
+          "column": "main",
+          "published": true,
+          "cssClass": "braun",
+          "elements": [
+            {
+              "id": 1,
+              "cssClass": "ce_willkommen",
+              "type": "text",
+              "html": "<h1>Herzlich willkommen in unserer <br>Zahnarztpraxis in Peine.</h1>\n<div class=\"mod_artwork2\">&nbsp;</div>\n<p>Unser Ziel ist es, gemeinsam mit Ihnen ein Behandlungskonzept nach Ihren Wünschen und Bedürfnissen zu erarbeiten. Wir sichern Ihnen die Umsetzung des gemeinsam erarbeiteten Behandlungskonzepts auf qualitativ hohem zahnmedizinischen Niveau zu. Unser modernes ganzheitliches Praxiskonzept ist auf Zahnerhaltung, professionelle Prophylaxe, hochwertigen Zahnersatz und Wurzelkanalbehandlung (Endodontie) spezialisiert.</p>",
+              "image": {
+                "src": "/files/startseite/portrait-dr-oezdemir.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Certified in Microendodontics and Endodontic Microsurgery <br>from the University of Pennsylvania, USA",
+                "href": "",
+                "fullsize": false,
+                "floating": "left",
+                "size": [
+                  "480",
+                  "290",
+                  "center_center"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Startseite",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 5,
+              "type": "columns",
+              "large": "3",
+              "medium": "3",
+              "small": "1",
+              "columns": [
+                {
+                  "elements": [
+                    {
+                      "id": 4,
+                      "headline": {
+                        "tag": "h2",
+                        "text": "Endodontie"
+                      },
+                      "type": "text",
+                      "html": "<p>Gesunde, schöne Zähne sind ein wichtiger Bestandteil Ihrer Ausstrahlung und Ihres Wohlbefindens. Der Erhalt Ihrer natürlichen Zähne steht für uns an erster Stelle.</p>\n<p><a href=\"/leistungen/wurzelkanalbehandlung\">Mehr Informationen</a></p>",
+                      "image": {
+                        "src": "/files/startseite/Teaser_LHA0317.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "below",
+                        "size": [
+                          "320",
+                          "150",
+                          "center_center"
+                        ]
+                      }
+                    },
+                    {
+                      "id": 3,
+                      "headline": {
+                        "tag": "h2",
+                        "text": "Konzeptioneller zahnersatz"
+                      },
+                      "type": "text",
+                      "html": "<p>Unter dem Begriff Zahnersatz (ZE) versteht man nicht nur das Ersetzen fehlender Zähne, sondern auch den Ersatz verloren gegangener Zahnhartsubstanz...</p>\n<p><a href=\"/leistungen/konzeptioneller-zahnersatz\">Mehr Informationen</a></p>",
+                      "image": {
+                        "src": "/files/startseite/_LHA04521.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "below",
+                        "size": [
+                          "320",
+                          "150",
+                          "center_center"
+                        ]
+                      }
+                    },
+                    {
+                      "id": 2,
+                      "headline": {
+                        "tag": "h2",
+                        "text": "Prophylaxe"
+                      },
+                      "type": "text",
+                      "html": "<p>Gesunde Zähne, frischer Atem - gute Pflege der Zähne ist die Grundlage jeder Zahnheilkunde. Mit regelmäßiger Prophylaxe tun Sie viel für die langfristige Gesundheit Ihrer Zähne...</p>\n<p><a href=\"/leistungen/prophylaxe\">Mehr Informationen</a></p>",
+                      "image": {
+                        "src": "/files/startseite/_LHA0277.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "below",
+                        "size": [
+                          "320",
+                          "150",
+                          "center_center"
+                        ]
+                      }
+                    }
+                  ],
+                  "implicit": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pid": 1,
+      "type": "regular",
+      "alias": "team",
+      "url": "/team",
+      "title": "Team",
+      "pageTitle": "Team",
+      "description": "Das Praxisteam der Zahnarztpraxis Özdemir in Peine. Vita von Zahnarzt Ali Özdemir.",
+      "published": true,
+      "hide": false,
+      "sorting": 256,
+      "articles": [
+        {
+          "id": 20,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 19,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0125h.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "title": "Braun",
+          "column": "main",
+          "published": true,
+          "cssClass": "braun",
+          "elements": [
+            {
+              "id": 124,
+              "type": "columns",
+              "large": "2",
+              "medium": "2",
+              "small": "1",
+              "columns": [
+                {
+                  "elements": [
+                    {
+                      "id": 127,
+                      "type": "image",
+                      "image": null
+                    },
+                    {
+                      "id": 100,
+                      "type": "text",
+                      "html": "<h1>Zahnarzt Ali Özdemir</h1>\n<ul>\n<li>1993-1998 Studium der Zahnmedizin an der MHH Hannover</li>\n<li>2001 Neueröffnung der eigenen Praxis in Peine Essinghausen</li>\n<li>2006-2008 Masterstudiengang Endodontie an der Donau-Universität Krems</li>\n<li>2010&nbsp;Neueröffnung einer auf Endodontie spezialisierten Überweiserpraxis</li>\n<li>2009-2011 Certified in Microendodontics and Endodontic Microsurgery&nbsp;from the University of Pennsylvania, USA</li>\n<li>2013/2014&nbsp;Kongress American Association of Endodontics in Washington DC/Boston</li>\n<li>03 &amp; 11 /2015 Gastvorträge an der Universty of Pennsylvania</li>\n</ul>\n<p><a href=\"/team/vita-ali-oezdemir\">Gesamte Vita einsehen</a></p>"
+                    }
+                  ],
+                  "implicit": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Team",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 89,
+              "headline": {
+                "tag": "h1",
+                "text": "Unser Praxisteam"
+              },
+              "type": "headline"
+            },
+            {
+              "id": 66,
+              "type": "columns",
+              "large": "3",
+              "medium": "2",
+              "small": "1",
+              "columns": [
+                {
+                  "elements": [
+                    {
+                      "id": 27,
+                      "type": "text",
+                      "html": "<h2>Petra Rissmann</h2>\n<p>Abrechnung/Verwaltung</p>",
+                      "image": {
+                        "src": "/files/startseite/_LHA0193web.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "320",
+                          "180",
+                          "center_center"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "id": 28,
+                      "type": "text",
+                      "html": "<h2>Ursula Manns</h2>\n<p>ZMF/Prophylaxe (Erwachsene)&nbsp;</p>",
+                      "image": {
+                        "src": "/files/startseite/_LHA0173web.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "320",
+                          "180",
+                          "center_center"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "id": 30,
+                      "type": "text",
+                      "html": "<h2>Melanie Düvel</h2>\n<p>Prophylaxe (Kinder und Erwachsene), Qualitätsmanagement</p>\n<p>&nbsp;</p>",
+                      "image": {
+                        "src": "/files/startseite/_LHA0214.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "320",
+                          "180",
+                          "right_top"
+                        ]
+                      }
+                    },
+                    {
+                      "id": 29,
+                      "hidden": true,
+                      "type": "text",
+                      "html": "<h2>Bianca Kaufmann</h2>\n<p>Prophylaxe (Kinder und Erwachsene), Qualitätsmanagement</p>",
+                      "image": {
+                        "src": "/files/startseite/_LHA0183web.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "320",
+                          "180",
+                          "left_center"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 101,
+              "type": "columns",
+              "large": "3",
+              "medium": "2",
+              "small": "1",
+              "columns": [
+                {
+                  "elements": []
+                },
+                {
+                  "elements": [
+                    {
+                      "id": 32,
+                      "type": "text",
+                      "html": "<h2>Eileen Grohn</h2>\n<p>Anmeldung/Abrechnung</p>",
+                      "image": {
+                        "src": "/files/startseite/kf.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "320",
+                          "180",
+                          "center_center"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "id": 33,
+                      "hidden": true,
+                      "type": "text",
+                      "html": "<h2>Ann-Christin Post</h2>\n<p>Auszubildende&nbsp;</p>",
+                      "image": {
+                        "src": "/files/startseite/kf.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "320",
+                          "180",
+                          "center_top"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pid": 1,
+      "type": "regular",
+      "alias": "praxis",
+      "url": "/praxis",
+      "title": "Praxis",
+      "pageTitle": "Praxis",
+      "description": "Unsere Zahnarztpraxis in Peine",
+      "published": false,
+      "hide": false,
+      "sorting": 384,
+      "articles": [
+        {
+          "id": 36,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 65,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0475web.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Praxis",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 76,
+              "headline": {
+                "tag": "h1",
+                "text": "Unsere Zahnarztpraxis in Peine"
+              },
+              "type": "text",
+              "html": "<p>Text fehlt.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pid": 1,
+      "type": "forward",
+      "alias": "leistungen",
+      "url": "/leistungen",
+      "title": "Leistungen",
+      "pageTitle": "Leistungen",
+      "published": true,
+      "hide": false,
+      "jumpTo": 11,
+      "sorting": 512,
+      "articles": [
+        {
+          "id": 21,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 26,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0283.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Leistungen",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 21,
+              "type": "text",
+              "html": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pid": 1,
+      "type": "regular",
+      "alias": "kollegen",
+      "url": "/kollegen",
+      "title": "Kollegen",
+      "pageTitle": "Kollegen",
+      "description": "Durch Spezialisierung der Endodontiebehandlung von Zahnarzt Ali Özdemir an der University of Pennsylvania, können wir Ihren Patienten eine qualitativ sehr hochwertige Behandlung anbieten.",
+      "published": true,
+      "hide": false,
+      "sorting": 640,
+      "articles": [
+        {
+          "id": 32,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 50,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0323.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Kollegen",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 51,
+              "headline": {
+                "tag": "h1",
+                "text": "Sehr geehrte Kolleginnen und Kollegen,"
+              },
+              "type": "text",
+              "html": "<p>wir möchten Ihnen einen kleinen Einblick in unsere Behandlungsmethode geben. Die Aufbereitung der Wurzelkanäle unter Mikroskop erfolgt mit speziellen, flexibel rotierenden Nickel-Titan-Feilen. Diese Vorgehensweise unter Zuhilfenahme spezieller Instrumente für die Spülung nimmt in unserer Praxis einen sehr hohen Stellenwert ein. Die Prognosen auch bei unterschiedlicher Ausgangssituation, sei es Instrumentenfraktur, Revisionsbehandlungen, Entfernung von Stiften, extrem gekrümmte Kanäle oder sogar der Verschluss einer Wurzelperforation, sind dank unserer langjährigen Erfahrung auf dem Gebiet hervorragend.</p>\n<p>Durch Spezialisierung der Endodontiebehandlung an der University of Pennsylvania, können wir Ihren Patienten eine qualitativ sehr hochwertige Behandlung anbieten.</p>"
+            },
+            {
+              "id": 64,
+              "headline": {
+                "tag": "h2",
+                "text": "Überweisung"
+              },
+              "type": "text",
+              "html": "<p>Hier können Sie sich unser Überweisungsformular für Ihre Patienten herunterladen.</p>"
+            },
+            {
+              "id": 77,
+              "type": "download",
+              "src": "/files/pdf/ueberweisungsformular.pdf",
+              "title": "ueberweisungsformular.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "pid": 1,
+      "type": "regular",
+      "alias": "News",
+      "url": "/News",
+      "title": "News",
+      "pageTitle": "News",
+      "description": "News der Praxis von Zahnarzt Ali Özdemir in Peine.",
+      "published": true,
+      "hide": false,
+      "sorting": 768,
+      "articles": [
+        {
+          "id": 33,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 52,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0480web.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Jobs",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 78,
+              "headline": {
+                "tag": "h1",
+                "text": "News"
+              },
+              "type": "headline"
+            },
+            {
+              "id": 169,
+              "headline": {
+                "tag": "h2",
+                "text": "November 2015 - Gastvortrag an der University of Pennsylvania"
+              },
+              "type": "gallery",
+              "perRow": 5,
+              "fullsize": true,
+              "images": [
+                {
+                  "src": "/files/Vortrag_November/IMG_5742_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_November/IMG_5744_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_November/IMG_5745_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_November/IMG_5747_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_November/IMG_5748_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_November/IMG_5749_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_November/IMG_5752_kl.JPG",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                }
+              ]
+            },
+            {
+              "id": 168,
+              "headline": {
+                "tag": "h2",
+                "text": "März 2015 - Gastvortrag an der University of Pennsylvania"
+              },
+              "type": "gallery",
+              "perRow": 5,
+              "fullsize": true,
+              "images": [
+                {
+                  "src": "/files/Vortrag_April/IMG_5584.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5587.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5590.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5594.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5597.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5598.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5601.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5603.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5606.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5608.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5609.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5611.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5613.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5614.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                },
+                {
+                  "src": "/files/Vortrag_April/IMG_5616.jpeg",
+                  "alt": "",
+                  "title": "",
+                  "caption": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "pid": 1,
+      "type": "regular",
+      "alias": "kontakt",
+      "url": "/kontakt",
+      "title": "Kontakt",
+      "pageTitle": "Kontakt und Sprechzeiten",
+      "description": "So erreichen Sie die Praxis von Zahnarzt Ali Özdemir: Kunzendorfer Straße 6, 31224 Peine Essinghausen, Tel.: 05171 / 581 320, Fax: 05171 / 581 322",
+      "published": true,
+      "hide": false,
+      "sorting": 896,
+      "articles": [
+        {
+          "id": 19,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 120,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0475web.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Kontakt",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 111,
+              "type": "columns",
+              "large": "2",
+              "medium": "2",
+              "small": "1",
+              "columns": [
+                {
+                  "elements": [
+                    {
+                      "id": 53,
+                      "headline": {
+                        "tag": "h2",
+                        "text": "So erreichen Sie uns"
+                      },
+                      "type": "text",
+                      "html": "<p>Zahnarztpraxis&nbsp;Ali Özdemir MSc<br>Kunzendorfer Straße 6<br>31224 Peine Essinghausen</p>\n<p>Tel.: 05171 / 581 320<br>Fax: 05171 / 581 322</p>\n<p><a href=\"mailto:anmeldung@oezdemir-die-praxis.de\">anmeldung@oezdemir-die-praxis.de</a></p>"
+                    },
+                    {
+                      "id": 182,
+                      "type": "text",
+                      "html": "<p>Oder schreiben Sie uns einfach eine <br>E-mail an: <a href=\"mailto:info@oezdemir-die-praxis.de\">info@oezdemir-die-praxis.de</a></p>"
+                    },
+                    {
+                      "id": 20,
+                      "hidden": true,
+                      "headline": {
+                        "tag": "h2",
+                        "text": "Kontaktformular"
+                      },
+                      "type": "form",
+                      "form": {
+                        "id": 1,
+                        "title": "Kontakt",
+                        "recipient": "info@oezdemir-die-praxis.de",
+                        "fields": [
+                          {
+                            "type": "text",
+                            "name": "name",
+                            "label": "Name",
+                            "mandatory": true
+                          },
+                          {
+                            "type": "text",
+                            "name": "phone",
+                            "label": "Telefon",
+                            "mandatory": false
+                          },
+                          {
+                            "type": "text",
+                            "name": "email",
+                            "label": "E-Mail",
+                            "mandatory": true
+                          },
+                          {
+                            "type": "textarea",
+                            "name": "nachricht",
+                            "label": "Nachricht an uns",
+                            "mandatory": false
+                          },
+                          {
+                            "type": "submit",
+                            "name": "",
+                            "label": "",
+                            "mandatory": false
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "id": 121,
+                      "headline": {
+                        "tag": "h2",
+                        "text": "Sprechzeiten"
+                      },
+                      "type": "text",
+                      "html": "<table style=\"height: 192px;\" width=\"434\">\n<tbody>\n<tr>\n<td>Montag</td>\n<td>&nbsp;8:00 Uhr – 17:00 Uhr</td>\n</tr>\n<tr>\n<td>Dienstag</td>\n<td>&nbsp;8:00 Uhr – 13:00 Uhr und 15:00 Uhr – 19:00 Uhr</td>\n</tr>\n<tr>\n<td>Mittwoch</td>\n<td>&nbsp;8:00 Uhr – 13:00 Uhr</td>\n</tr>\n<tr>\n<td>Donnerstag</td>\n<td>&nbsp;8:00 Uhr – 13:00 Uhr und 15:00 Uhr – 19:00 Uhr</td>\n</tr>\n<tr>\n<td>Freitag</td>\n<td>&nbsp;8:00 Uhr – 13:00 Uhr</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p><strong>Termine nur nach vorheriger telefonischer Absprache.</strong></p>\n<p><strong>Privatpraxis für mikroskopische Endodontie</strong><br>Überweiserpraxis<br>Campestraße 7<br>38102 Braunschweig<br>Tel: 0531 / 237 680 41</p>"
+                    }
+                  ],
+                  "implicit": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "title": "Karte",
+          "column": "main",
+          "published": true,
+          "cssClass": "no-padding",
+          "elements": [
+            {
+              "id": 18,
+              "type": "html",
+              "html": "<div class=\"ce_embended\">\n\t<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.148984914827!2d10.258705951812608!3d52.3314432578385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47affe8873797f73%3A0x7b48da5dd3eabc44!2sAli+%C3%96zdemir!5e0!3m2!1sde!2sde!4v1448535543120\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>\n</div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "pid": 1,
+      "type": "regular",
+      "alias": "datenschutz",
+      "url": "/datenschutz",
+      "title": "Datenschutz",
+      "pageTitle": "Datenschutz",
+      "published": true,
+      "hide": true,
+      "sorting": 1024,
+      "articles": [
+        {
+          "id": 38,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 82,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0475web.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Datenschutz",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 79,
+              "headline": {
+                "tag": "h1",
+                "text": "Datenschutzerklärung der Praxis-Webseite zahnarztpraxis-oezdemir.de"
+              },
+              "type": "text",
+              "html": "<h2>Nutzungsdaten</h2>\n<p>1. Verantwortlicher&nbsp; : Ali Özdemir, Kunzendorfer Str. 6, 31224 Peine</p>\n<p>2. Datenschutzbeauftragte:&nbsp; Manuela Klotz<br>c/o OPTI health consulting GmbH<br>Eckernförder Str. 42<br>24398 Karby<br><a href=\"mailto:datenschutz@opti-hc.de\">datenschutz@opti-hc.de</a></p>\n<p>Wenn Sie unsere Webseiten besuchen, werden auf unserem Webserver temporär&nbsp;sogenannte Nutzungsdaten zu statistischen Zwecken als Protokoll gespeichert, um die&nbsp;Qualität unserer Webseiten zu verbessern.</p>\n<p>Dieser Datensatz besteht aus<br>· der Seite, von der aus die Datei angefordert wurde,<br>· dem Namen der Datei,<br>· dem Datum und der Uhrzeit der Abfrage,<br>· der übertragenen Datenmenge,<br>· dem Zugriffsstatus (Datei übertragen, Datei nicht gefunden),<br>· der Beschreibung des Typs des verwendeten Webbrowsers,</p>\n<p><br>Darüber hinaus speichern wir die von Ihrem Rechner übermittelte (vollständige) IPAdresse&nbsp;für die Dauer von sieben Tagen, um Störungen oder Fehler erkennen,&nbsp;eingrenzen und beseitigen zu können (insbesondere um Angriffsversuche auf unsere&nbsp;Webserver abwehren zu können). Wir verwenden die IP-Adresse ausschließlich streng&nbsp;zweckgebunden für o. g. Sicherheitszwecke. Nach Ablauf von sieben Tagen löschen&nbsp;bzw. anonymisieren wir die IP-Adresse. Die Erstellung von personenbezogenen&nbsp;Nutzerprofilen ist damit zu jeder Zeit ausgeschlossen.</p>"
+            },
+            {
+              "id": 162,
+              "headline": {
+                "tag": "h2",
+                "text": "Übermittlung an Dritte"
+              },
+              "type": "text",
+              "html": "<p>Wir übermitteln Ihre personenbezogenen Daten nicht an Dritte.</p>"
+            },
+            {
+              "id": 128,
+              "headline": {
+                "tag": "h2",
+                "text": "Cookies"
+              },
+              "type": "text",
+              "html": "<p>Cookies sind kleine Dateien, die auf der Festplatte eines Besuchers abgelegt werden. Sie&nbsp;erlauben es, Informationen über einen bestimmten Zeitraum vorzuhalten und den&nbsp;Rechner des Besuchers zu identifizieren. Zur besseren Benutzerführung und&nbsp;individuellen Leistungsdarstellung setzen wir permanente Cookies ein. Ferner&nbsp;verwenden wir sog. Session-Cookies, die automatisch gelöscht werden, wenn Sie Ihren&nbsp;Browser schließen. Sie können Ihren Browser so einstellen, dass er Sie über die&nbsp;Platzierung von Cookies informiert. So wird der Gebrauch von Cookies für Sie&nbsp;transparent.</p>"
+            },
+            {
+              "id": 129,
+              "headline": {
+                "tag": "h2",
+                "text": "Einsatz von Piwik"
+              },
+              "type": "text",
+              "html": "<p>Unserer Website verwendet Piwik, dabei handelt es sich um einen sogenannten Webanalysedienst.<br>Piwik verwendet sog. “Cookies”, das sind Textdateien, die auf Ihrem&nbsp;Computer gespeichert werden und die unsererseits eine Analyse der Benutzung der&nbsp;Webseite ermöglichen. Zu diesem Zweck werden die durch den Cookie erzeugten&nbsp;Nutzungsinformationen (einschließlich Ihrer gekürzten IP-Adresse) an unseren Server&nbsp;übertragen und zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung&nbsp;unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umgehend anonymisiert, so&nbsp;dass Sie als Nutzer für uns anonym bleiben. Die durch den Cookie erzeugten Informationen&nbsp;über Ihre Benutzung dieser Webseite werden nicht an Dritte weitergegeben. Sie können die&nbsp;Verwendung der Cookies durch eine entsprechende Einstellung Ihrer Browser Software&nbsp;verhindern, es kann jedoch sein, dass Sie in diesem Fall gegebenenfalls nicht sämtliche&nbsp;Funktionen dieser Website voll umfänglich nutzen können.</p>\n<p>Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht&nbsp;einverstanden sind, dann können Sie hiergegen auch per Mausklick widersprechen. In&nbsp;diesem Fall wird in Ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat,&nbsp;dass Piwik keinerlei Sitzungsdaten erhebt. Wenn Sie Ihre Cookies löschen, so hat dies&nbsp;allerdings zur Folge, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Ihnen erneut&nbsp;aktiviert werden muss.</p>"
+            },
+            {
+              "id": 166,
+              "type": "html",
+              "html": "<iframe style=\"border: 1px solid #4b4b4b; height: 220px; width: 100%;\" src=\"http://piwik.tdoescher.de/index.php?module=CoreAdminHome&action=optOut&idsite=4&language=de\"></iframe>"
+            },
+            {
+              "id": 163,
+              "headline": {
+                "tag": "h2",
+                "text": "Kontakt"
+              },
+              "type": "text",
+              "html": "<p>Sie haben die Möglichkeit, mit uns über ein Webformular in Kontakt zu treten. Zur&nbsp;Nutzung unseres Kontaktformulars benötigen wir Ihren Namen und Ihre E-Mail-Adresse. Weitere Angaben können Sie mitteilen, müssen dies jedoch nicht. Ihre Daten&nbsp;werden nur zur Beantwortung Ihrer Anfrage verarbeitet. Eine Weitergabe an Dritte&nbsp;erfolgt nicht.</p>"
+            },
+            {
+              "id": 183,
+              "headline": {
+                "tag": "h2",
+                "text": "Google Maps Plugin"
+              },
+              "type": "text",
+              "html": "<p>Wir setzen auf unserer Webseite ein Plugin des Internetdienstes Google Maps ein. Betreiber von Google Maps ist Google Inc., ansässig in den USA, CA 94043, 1600 Amphitheatre Parkway, Mountain View. Indem Sie Google Maps auf unserer Webseite nutzen, werden Informationen über die Nutzung dieser Webseite und Ihre IP-Adresse an einen Google-Server in den USA übermittelt und auch auf diesem Server gespeichert. Wir haben keine Kenntnis über den genauen Inhalt der übermittelten Daten, noch über ihre Nutzung durch Google. Das Unternehmen verneint in diesem Kontext die Verbindung der Daten mit Informationen aus anderen Google-Diensten und die Erfassung personenbezogener Daten. Allerdings kann Google die Informationen an Dritte übermitteln. Wenn Sie Javascript in Ihrem Browser deaktivieren, verhindern Sie die Ausführung von Google Maps. Sie können dann aber auch keine Kartenanzeige auf unserer Webseite nutzen. Mit der Nutzung unserer Webseite erklären Sie Ihr Einverständnis mit der beschriebenen Erfassung und Verarbeitung der Informationen durch Google Inc.. Näheres zu den Datenschutzbestimmungen und Nutzungsbedingungen für Google Maps erfahren Sie hier: https://www.google.com/intl/de_de/help/terms_maps.html.</p>"
+            },
+            {
+              "id": 164,
+              "headline": {
+                "tag": "h2",
+                "text": "Verschlüsselung"
+              },
+              "type": "text",
+              "html": "<p>Um Ihre Daten vor unerwünschten Zugriffen zu schützen, setzen wir auf einigen Seiten ein&nbsp;Verschlüsselungsverfahren ein. Ihre Angaben werden dann von Ihrem Rechner zu unserem&nbsp;Server und umgekehrt über das Internet mittels einer 128 Bit SSL-Verschlüsselung (Secure&nbsp;Socket Layer) übertragen. Sie erkennen dies daran, dass auf der Statusleiste Ihres&nbsp;Browsers das Schloss-Symbol geschlossen ist und die Adresszeile mit https:// beginnt. Wir&nbsp;verzichten auf eine Verschlüsselung, wenn sie lediglich allgemein verfügbare Informationen&nbsp;mit uns austauschen.</p>"
+            },
+            {
+              "id": 165,
+              "headline": {
+                "tag": "h2",
+                "text": "Nutzerrechte"
+              },
+              "type": "text",
+              "html": "<p>Sie haben als Nutzer das Recht, Auskunft darüber zu verlangen, welche Daten über Sie bei&nbsp;uns gespeichert sind und zu welchem Zweck diese Speicherung erfolgt. Darüber hinaus&nbsp;können Sie unrichtige Daten berichtigen oder solche Daten löschen lassen, deren&nbsp;Speicherung unzulässig oder nicht mehr erforderlich ist. Für Auskünfte, Wünsche oder&nbsp;Anregungen zum Thema Datenschutz stehen wir Ihnen gerne zur Verfügung.</p>\n<p>Den Antrag senden Sie bitte per Post oder E-Mail an Zahnarztpraxis Ali Özdemir MSc, Kunzendorfer Str. 6, 31224 Peine-Essinghausen, info@zahnarztpraxis-oezdemir.de.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "pid": 1,
+      "type": "regular",
+      "alias": "impressum",
+      "url": "/impressum",
+      "title": "Impressum",
+      "pageTitle": "Impressum",
+      "published": true,
+      "hide": true,
+      "sorting": 1152,
+      "articles": [
+        {
+          "id": 39,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 83,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0475web.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Impressum",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 80,
+              "headline": {
+                "tag": "h1",
+                "text": "Impressum"
+              },
+              "type": "text",
+              "html": "<h2>Zahnarztpraxis Ali Özdemir MSc</h2>\n<p>Kunzendorfer Str. 6<br>31224 Peine-Essinghausen<br>Deutschland</p>\n<p>Telefon: +49 (0) 5171 - 581 320<br>E-Mail: <a title=\"anmeldung@oezdemir-die-praxis.de\" href=\"mailto:anmeldung@oezdemir-die-praxis.de\">anmeldung@oezdemir-die-praxis.de<br></a>Internet: <a href=\"/\">oezdemir-die-praxis.de</a></p>\n<p>1. Verantwortlicher&nbsp; : Ali Özdemir, Kunzendorfer Str. 6, 31224 Peine</p>\n<p>2. Datenschutzbeauftragte:&nbsp; Manuela Klotz<br>c/o OPTI health consulting GmbH<br>Eckernförder Str. 42<br>24398 Karby<br><a href=\"mailto:datenschutz@opti-hc.de\">datenschutz@opti-hc.de</a></p>"
+            },
+            {
+              "id": 131,
+              "headline": {
+                "tag": "h2",
+                "text": "Berufsbezeichnung"
+              },
+              "type": "text",
+              "html": "<p>Zahnarzt (Approbation verliehen durch die Bundesrepublik Deutschland)</p>"
+            },
+            {
+              "id": 132,
+              "headline": {
+                "tag": "h2",
+                "text": "Berufshaftpflicht"
+              },
+              "type": "text",
+              "html": "<div>Eine Berufshaftpflichtversicherung besteht bei der VGH Versicherungen&nbsp;Schiffgraben 4, 30159 Hannover. <br>Der Versicherungsschutz besteht im Gebiet der Bundesrepublik&nbsp;Deutschland.</div>"
+            },
+            {
+              "id": 133,
+              "headline": {
+                "tag": "h2",
+                "text": "Berufsrechtliche Regelungen"
+              },
+              "type": "text",
+              "html": "<ul>\n<li>Gesetz über die Ausübung der Zahnheilkunde</li>\n<li>Kammergesetz für die Heilberufe (HKG)</li>\n<li>Gebührenordnung für Zahnärzte</li>\n<li>Berufsordnung der Zahnärztekammer Niedersachsen</li>\n</ul>\n<p>Die Vorschriften sind unter: <a href=\"http://www.zkn.de/\">http://www.zkn.de/</a> abrufbar.</p>"
+            },
+            {
+              "id": 134,
+              "headline": {
+                "tag": "h2",
+                "text": "Zuständige Kammer"
+              },
+              "type": "text",
+              "html": "<div>Zahnärztekammer Niedersachsen</div>\n<div>Zeißstraße 11a</div>\n<div>30519 Hannover</div>\n<div>Telefon: 0511 83391-0</div>\n<div>Telefax: 0511 83391-116</div>\n<div>E-Mail: <a href=\"mailto: info@zkn.de\">info@zkn.de</a></div>\n<div>Internet: <a href=\"http://www.zkn.de\">www.zkn.de</a></div>"
+            },
+            {
+              "id": 136,
+              "headline": {
+                "tag": "h2",
+                "text": "Zuständige Aufsichtsbehörde für die Vertragszahnärztliche Tätigkeit"
+              },
+              "type": "text",
+              "html": "<div>Kassenzahnärztliche Vereinigung Niedersachsen (KZVN)</div>\n<div>Zeißstr. 11</div>\n<div>30519 Hannover</div>\n<div>Telefon +49 (0)511 8405-0</div>\n<div>Telefax +49 (0)511 59097080</div>\n<div><a>Email: </a><a href=\"mailto: info@kzvn.de\">info@kzvn.de</a></div>\n<div>Internet: <a href=\"https://www.kzvn.de\">www.kzvn.de</a></div>"
+            },
+            {
+              "id": 138,
+              "headline": {
+                "tag": "h2",
+                "text": "Layout, Konzeption und Realisierung des Webauftritts"
+              },
+              "type": "text",
+              "html": "<p><a href=\"http://prof-sander.de\" target=\"_blank\">Sander Concept GmbH </a><br>Auf den Kämpen 14a <br>27580 Bremerhaven<br>Telefon: (0471) 8 06 10 00 <br>Fax: (0471) 8 06 10 20</p>\n<h2>Programmierung sowie technische Betreuung</h2>\n<p><a href=\"http://tdoescher.de\" target=\"_blank\">tdoescher.de - Webentwicklung</a><br>An der Packhalle XIII, Abt. 14<br>27572 Bremerhaven<br>Telefon: (0151) 50 99 71 95</p>\n<h2>Fotografien</h2>\n<p><a href=\"http://www.mirkoplha.com/\" target=\"_blank\">Studio Mirko Plha </a><br>Lotzestraße 1 <br>37083 Göttingen<br>Telefon: (0551) 499 73 50</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "pid": 3,
+      "type": "regular",
+      "alias": "team/vita-ali-oezdemir",
+      "url": "/team/vita-ali-oezdemir",
+      "title": "Vita Ali Özdemir",
+      "published": true,
+      "hide": true,
+      "sorting": 128,
+      "articles": [
+        {
+          "id": 23,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 35,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0513.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Vita Ali Özdemir",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 91,
+              "type": "columns",
+              "large": "2-1",
+              "medium": "2-1",
+              "small": "1",
+              "columns": [
+                {
+                  "elements": [
+                    {
+                      "id": 34,
+                      "headline": {
+                        "tag": "h1",
+                        "text": "Vita Ali Özdemir"
+                      },
+                      "type": "text",
+                      "html": "<ul>\n<li>1993 - 1998 Studium der Zahnmedizin an der MHH Hannover</li>\n<li>1999 - 2001 Assistenzzeit</li>\n<li>08/2001 Neueröffnung der eigenen Praxis in Peine Essinghausen</li>\n<li>11/2005 Humanpräparatekurs und Weichgewebemanagement</li>\n<li>2006 - 2008 Masterstudiengang Endodontie an der Donau Universität Krems</li>\n<li>2007 Microscope Training Course in Conventional Endodontics an der University of Pennsylvania</li>\n<li>03/2007 Swiss Symposium Endodontic Dentistry in Bregenz</li>\n<li>2009 - 2011 Zertifikat der University of Pennsylvania</li>\n<li>2009 Microscope Training Course in Surgical Endodontics an der University of Pennsylvania</li>\n<li>2010 Kongress American Association of Endodontics in San Diego</li>\n<li>2010 Neueröffnung einer auf Endodontologie spezialisierten Überweiserpraxis</li>\n<li>01/2011 University of Pennsylvania Penn Endo Global Symposium in Nürnberg</li>\n<li>04/2011 Kongress der American Association of Endodontics in San Antonio</li>\n<li>12/2011 University of Pennsylvania Penn Endo Global Symposium in Krakau</li>\n<li>05/2012 University of Pennsylvania Penn Global Symposium in Japan</li>\n<li>04/2013 Kongress der American Association of Endodontics in Boston</li>\n<li>09/2013 European Society of Endodontology Biennial Congress in Lissabon</li>\n<li>04&amp;05/2014 Kongress der American Association of Endodontics in Washington DC</li>\n<li>11/2014 University of Pennsylvania Endodontic Retreatment</li>\n<li>12/2014 University of Pennsylvania Penn Global Symposium in Wien</li>\n<li>03/2015 Gastvortrag an der University of Pennsylvania&nbsp;\"Anatomische Variationen der Molaren\"</li>\n<li>11/2015 Gastvortrag an der University of Pennsylvania&nbsp;\"Erfolgsaussichten von Zähnen mit apikaler Ostitis\"</li>\n<li>11/2015 Penn Endo Global Symposium Mexico City&nbsp;</li>\n</ul>\n<p><a href=\"/team\">zurück zur Teamseite</a></p>"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "id": 97,
+                      "type": "image",
+                      "image": {
+                        "src": "/files/header/_LHA0517.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "400",
+                          "",
+                          "center_center"
+                        ]
+                      }
+                    },
+                    {
+                      "id": 98,
+                      "type": "image",
+                      "image": {
+                        "src": "/files/header/_LHA0247.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above"
+                      }
+                    },
+                    {
+                      "id": 160,
+                      "type": "image",
+                      "image": {
+                        "src": "/files/startseite/IMG_5584.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "400",
+                          "",
+                          "center_center"
+                        ]
+                      }
+                    },
+                    {
+                      "id": 161,
+                      "type": "image",
+                      "image": {
+                        "src": "/files/startseite/IMG_5752web.jpg",
+                        "alt": "",
+                        "title": "",
+                        "caption": "",
+                        "href": "",
+                        "fullsize": false,
+                        "floating": "above",
+                        "size": [
+                          "400",
+                          "",
+                          "center_center"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/konzeptioneller-zahnersatz",
+      "url": "/leistungen/konzeptioneller-zahnersatz",
+      "title": "Konzeptioneller Zahnersatz",
+      "pageTitle": "Konzeptioneller Zahnersatz",
+      "description": "Zahnersatz in der Praxis von Zahnarzt Ali Özdemir in Peine. Unter dem Begriff Zahnersatz (ZE) versteht man nicht nur das Ersetzen fehlender Zähne, sondern auch den Ersatz verloren gegangener Zahnhartsubstanz durch eine Krone oder Teilkrone.",
+      "published": true,
+      "hide": false,
+      "sorting": 128,
+      "articles": [
+        {
+          "id": 25,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 38,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0452.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Konzeptioneller Zahnersatz",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 24,
+              "headline": {
+                "tag": "h1",
+                "text": "Konzeptioneller Zahnersatz"
+              },
+              "type": "text",
+              "html": "<p>Unter dem Begriff Zahnersatz (ZE) versteht man nicht nur das Ersetzen fehlender Zähne, sondern auch den Ersatz verloren gegangener Zahnhartsubstanz durch eine Krone oder Teilkrone.</p>\n<p>Bei diesen zahntechnisch hergestellten Werkstücken wird unterschieden zwischen festsitzendem und herausnehmbarem Ersatz.</p>\n<p>In einem ausführlichen Beratungsgespräch werden wir gemeinsam mit Ihnen die für Sie bestmögliche Lösung für Ihren neuen Zahnersatz finden.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung",
+      "url": "/leistungen/wurzelkanalbehandlung",
+      "title": "Wurzelkanalbehandlung",
+      "pageTitle": "Wurzelkanalbehandlung",
+      "description": "Wurzelkanalbehandlung in der Praxis von Zahnarzt Ali Özdemir in Peine. Gesunde, schöne Zähne sind ein wichtiger Bestandteil Ihrer Ausstrahlung und Ihres Wohlbefindens. Der Erhalt Ihrer natürlichen Zähne steht für uns an erster Stelle.",
+      "published": true,
+      "hide": false,
+      "sorting": 256,
+      "articles": [
+        {
+          "id": 26,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 39,
+              "type": "image",
+              "image": {
+                "src": "/files/header/wurzelbehandlung_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Wurzelkanalbehandlung",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 25,
+              "headline": {
+                "tag": "h1",
+                "text": "Wurzelkanalbehandlung"
+              },
+              "type": "text",
+              "html": "<p>Gesunde, schöne Zähne sind ein wichtiger Bestandteil Ihrer Ausstrahlung und Ihres Wohlbefindens. Der Erhalt Ihrer natürlichen Zähne steht für uns an erster Stelle.</p>\n<p>Im Inneren jedes gesunden Zahnes befindet sich das Zahnmark/Nerv, bestehend aus Blutgefäßen und Nerven. Bei einer fortgeschrittenen Karies oder wenn ein größeres Stück des Zahnes abgebrochen ist, können Bakterien in das Zahnmark vordringen. Es kann dadurch zu akuten Entzündungen, Schmerzen oder auch Schwellungen kommen. Die einzige Möglichkeit, den erkrankten Zahn zu erhalten, ist die Wurzelkanalbehandlung, auch endodontische Behandlung genannt. <a href=\"http://www.erhaltedeinenzahn.de\" target=\"_blank\">www.erhaltedeinenzahn.de</a></p>\n<p>Mit Hilfe eines Operationsmikroskops führen wir in unserer Praxis Wurzelkanalbehandlungen nach neuester Methodik durch, um Ihnen einen optimalen Behandlungserfolg zu garantieren. Während der Behandlung eröffnen wir den Zahn und verschaffen uns Zugang zu den Wurzelkanälen.</p>\n<p>Als Schutzmaßnahme für unsere Patienten arbeiten wir ausschließlich unter Kofferdam (Spanngummi). Dies verhindert das Eindringen von bakterienbehaftetem Speichel, aber auch ein versehentliches Verschlucken von Instrumenten oder Desinfektionslösungen.</p>\n<p>Eine Behandlung ist dann erfolgreich, wenn alle Wurzelkanäle gefunden und mit speziellem Instrumentarium wie zum Beispiel rotierenden Nickel-Titan-Feilen entsprechend aufbereitet wurden. Aufgrund der mikroskopisch feinen Strukturen im Behandlungsgebiet gelingt dieses nur mit optischen Hilfsmitteln wie Lupenbrille und Operationsmikroskop.</p>\n<p>Die Kanäle werden ständig auf ihre Durchgängigkeit geprüft und ihre Längen elektrometrisch bestimmt. Gleichzeitig werden alle Kanäle mit desinfizierenden Lösungen gespült. Ziel dieser Aufbereitung ist es, einen keimarmen Wurzelkanal zu erhalten.</p>\n<p>Nach erfolgreicher Vorarbeit werden die Wurzelkanäle wieder aufgefüllt. Wir arbeiten mit einer thermoplastischen Fülltechnik. Hierbei füllen wir die Kanäle mit erwärmter, plastischer Guttapercha, zur sicheren dreidimensionalen Abdichtung aller Kanäle. Abhängig von der klinischen Ausgangssituation können auf diese Weise bis zu 90% der behandlungsbedürftigen Zähne erhalten werden! <a href=\"http://www.DGET.de\" target=\"_blank\">www.DGET.de</a></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/prophylaxe",
+      "url": "/leistungen/prophylaxe",
+      "title": "Prophylaxe",
+      "pageTitle": "Prophylaxe",
+      "description": "Prophylaxe in der Praxis von Zahnarzt Ali Özdemir in Peine. Gesunde Zähne, frischer Atem - gute Pflege der Zähne ist die Grundlage jeder Zahnheilkunde. Mit regelmäßiger Prophylaxe tun Sie viel für die langfristige Gesundheit Ihrer Zähne und beugen Karies sowie Parodontitis, den zwei am häufigsten vorkommenden Zahnerkrankungen, wirksam vor.",
+      "published": true,
+      "hide": false,
+      "sorting": 384,
+      "articles": [
+        {
+          "id": 27,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 40,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0277.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Prophylaxe",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 41,
+              "headline": {
+                "tag": "h1",
+                "text": "Prophylaxe"
+              },
+              "type": "text",
+              "html": "<p>Gesunde Zähne, frischer Atem - gute Pflege der Zähne ist die Grundlage jeder Zahnheilkunde. Mit regelmäßiger Prophylaxe tun Sie viel für die langfristige Gesundheit Ihrer Zähne und beugen Karies sowie Parodontitis, den zwei am häufigsten vorkommenden Zahnerkrankungen, wirksam vor.</p>\n<p>Mit Fingerspitzengefühl und verfeinerten Methoden gelingt uns die Reinigung selbst schwer zugänglicher Bereiche Ihres Mundraumes, die Sie selbst trotz gewissenhafter Zahnpflege zu Hause nicht erreichen.</p>\n<p>Unser erfolgreiches Prophylaxekonzept beinhaltet eine Full-Mouth-Therapy. So sind wir in der Lage, alle eine Zahnfleischerkrankung auslösenden Keime gezielt zu beseitigen.</p>\n<p>Für ein straffes, gesundes und blutungsfreies Zahnfleisch werden die dafür benötigten Prophylaxesitzungen individuell mit Ihnen festgelegt. Nach erfolgreicher Prophylaxesitzung und Absprache befinden sich unsere Patienten im Abstand von ca. 3-6 Monaten im individuellen Prophylaxe-Recall mit anschließender zahnärztlicher Kontrolluntersuchung.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/parodontose",
+      "url": "/leistungen/parodontose",
+      "title": "Parodontose",
+      "pageTitle": "Parodontose",
+      "description": "Parodontose in der Praxis von Zahnarzt Ali Özdemir in Peine. Als Parodontitis bezeichnet man eine akute oder chronische Entzündung des Zahnfleisches.",
+      "published": true,
+      "hide": false,
+      "sorting": 512,
+      "articles": [
+        {
+          "id": 28,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 42,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0374.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Parodontose",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 43,
+              "headline": {
+                "tag": "h1",
+                "text": "Parodontose"
+              },
+              "type": "text",
+              "html": "<p>Als Parodontitis bezeichnet man eine akute oder chronische Entzündung des Zahnfleisches. (Zahnhalteapparat)</p>\n<p>Für die Zähne hat das schwere Folgen. Die Parodontitis zerstört die haltenden Fasern des Zahnfleisches so stark, dass der Zahn letztendlich ausfällt. Parodontitis kann als bakterielle Infektion auch auf andere Zähne übergreifen. Sie ist daher eine der Hauptursachen für Zahnverlust.</p>\n<p>Zahnfleischentzündungen lassen sich durch eine professionelle Zahnreinigung meist gut behandeln. Bleibt eine Entzündung allerdings unbehandelt, entsteht eine Parodontitis, die tiefere Bereiche wie Bindegewebe und Knochen erreicht. Meist ist das Zahnfleisch gerötet und angeschwollen, Mundgeruch und Zahnfleischbluten treten auf. Diese Anzeichen, auch wenn sie gering ausgeprägt sind, müssen ernst genommen werden.</p>\n<p>Weil eine Parodontitis lange keine Beschwerden verursacht und daher oft erst sehr spät bemerkt wird, ist eine regelmäßige Prophylaxe zu empfehlen. Den Behandlungsablauf bei einer Parodontitis besprechen wir mit Ihnen je nach Erkrankungsstadium individuell.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/bleaching",
+      "url": "/leistungen/bleaching",
+      "title": "Bleaching",
+      "pageTitle": "Bleaching",
+      "description": "Bleaching in der Praxis von Zahnarzt Ali Özdemir in Peine. Ein strahlendes Lächeln wünscht sich heute fast jeder. Denn helle, gesunde Zähne lassen Sie strahlen und steigern Ihr Selbstvertrauen.",
+      "published": true,
+      "hide": false,
+      "sorting": 640,
+      "articles": [
+        {
+          "id": 29,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 44,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0355.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Bleaching",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 45,
+              "headline": {
+                "tag": "h1",
+                "text": "Bleaching"
+              },
+              "type": "text",
+              "html": "<p>Ein strahlendes Lächeln wünscht sich heute fast jeder. Denn helle, gesunde Zähne lassen Sie strahlen und steigern Ihr Selbstvertrauen. Dunkle Zähne haben vielerlei Ursachen, zum Beispiel Medikamente, Tabakkonsum, aber auch bestimmte Lebensmittel und Getränke.</p>\n<p>Doch nicht jeder Zahn ist für ein Bleaching gleichermaßen geeignet. Vor einer eingehenden Untersuchung der Zähne ermittle ich die Ausgangssituation Ihrer Zähne und berate Sie ausführlich über das Verfahren.</p>\n<p>Vereinbaren Sie einen Termin bei unserer Prophylaxeassistentin. Denn dunkel verfärbte Zähne muss heute niemand mehr als schicksalsgegeben hinnehmen.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/fuellung",
+      "url": "/leistungen/fuellung",
+      "title": "Füllung",
+      "pageTitle": "Füllung",
+      "description": "In der Praxis von Zahnarzt Ali Özdemir in Peine kommen als Kunstofffüllungen nur moderne dentinadhäsive Mehrschichtrekonstruktionen in Ihrer natürlichen Zahnfarbe zum Einsatz. Mit diesen hochwertigen Materialien erreichen wir nahezu eine Inlay-Qualität.",
+      "published": true,
+      "hide": false,
+      "sorting": 768,
+      "articles": [
+        {
+          "id": 30,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 46,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0350.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Füllung",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 47,
+              "headline": {
+                "tag": "h1",
+                "text": "Füllung"
+              },
+              "type": "text",
+              "html": "<p>In unserer Praxis kommen als Kunstofffüllungen nur moderne dentinadhäsive Mehrschichtrekonstruktionen in Ihrer natürlichen Zahnfarbe zum Einsatz. Mit diesen hochwertigen Materialien erreichen wir nahezu eine Inlay-Qualität.</p>\n<p>Die Füllungen werden in mehreren Arbeitsschritten in Ihren Zahn eingebracht. Wir arbeiten immer unter Kofferdam (Spanngummi). Denn Kofferdam bietet unseren Patienten den Vorteil, dass beim Entfernen der alten Füllungen wie zum Beispiel Amalgam nichts verschluckt oder eingeatmet werden kann. Zugleich bietet es uns ein absolut trockenes und sauberes Arbeitsfeld.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "pid": 5,
+      "type": "regular",
+      "alias": "leistungen/implantate",
+      "url": "/leistungen/implantate",
+      "title": "Implantate",
+      "pageTitle": "Implantate",
+      "description": "Unsere Praxis von Zahnarzt Ali Özdemir in Peine ist auf Wurzelkanalbehandlungen (Endodontie) spezialisiert. Sollte eine Zahnentfernung (Extraktion) jedoch unumgänglich sein, dann ist die Implantation die ästhetische Alternative, um den fehlenden Zahn zu ersetzen.",
+      "published": true,
+      "hide": false,
+      "sorting": 896,
+      "articles": [
+        {
+          "id": 31,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 48,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0410.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Implantate",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 49,
+              "headline": {
+                "tag": "h1",
+                "text": "Implantate"
+              },
+              "type": "text",
+              "html": "<p>Unsere Praxis ist auf Wurzelkanalbehandlungen (Endodontie) spezialisiert. Sollte eine Zahnentfernung (Extraktion) jedoch unumgänglich sein, dann ist die Implantation die ästhetische Alternative, um den fehlenden Zahn zu ersetzen. <a href=\"http://www.dginet.de\" target=\"_blank\">www.dginet.de</a></p>\n<p>Sowohl die Zahnentfernung, das Setzen des Implantats als auch die Freilegung erfolgen in einer kieferchirurgischen Einrichtung. Wir arbeiten mit Praxen&nbsp;in Braunschweig, Hannover und Peine&nbsp;zusammen.</p>\n<p>Natürlich informieren wir Sie vorher ausführlich über die prothetische Versorgung (Suprakonstruktion) und setzen anschließend in unserer Praxis die prothetische Weiterbehandlung fort.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "pid": 8,
+      "type": "regular",
+      "alias": "kontakt/danke",
+      "url": "/kontakt/danke",
+      "title": "Danke",
+      "published": true,
+      "hide": true,
+      "sorting": 128,
+      "articles": [
+        {
+          "id": 42,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 117,
+              "type": "html",
+              "html": "<div class=\"ce_embended\">\n\t<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.148984914827!2d10.258705951812608!3d52.3314432578385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47affe8873797f73%3A0x7b48da5dd3eabc44!2sAli+%C3%96zdemir!5e0!3m2!1sde!2sde!4v1448535543120\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>\n</div>"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "title": "Danke",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 118,
+              "headline": {
+                "tag": "h1",
+                "text": "Vielen Dank für Ihre Anfrage."
+              },
+              "type": "text",
+              "html": "<p>Wir haben Ihre Nachricht erhalten und werden uns schnellstmöglich mit Ihnen in Verbindung setzen.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "pid": 11,
+      "type": "regular",
+      "alias": "leistungen/konzeptioneller-zahnersatz/zahnersatzunterschiede",
+      "url": "/leistungen/konzeptioneller-zahnersatz/zahnersatzunterschiede",
+      "title": "Zahnersatzunterschiede",
+      "published": true,
+      "hide": false,
+      "sorting": 128,
+      "articles": [
+        {
+          "id": 59,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 159,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0452.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "title": "Zahnersatzunterschiede",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 55,
+              "headline": {
+                "tag": "h1",
+                "text": "Zahnersatzunterschiede"
+              },
+              "type": "text",
+              "html": "<h2>Festsitzender Zahnersatz</h2>\n<p>Zum festsitzenden Zahnersatz zählen Kronen, Teilkronen und Brücken, die sowohl auf Ihren natürlichen Zähnen als auch auf Ihren Implantaten befestigt werden können. Dieser Zahnersatz zeichnet sich durch hohen Tragekomfort, optimale Ästhetik und Langlebigkeit aus.</p>\n<p>Diese Art von Zahnersatz ist fest im Kiefer verankert und kann nicht durch den Patienten selbst entfernt werden.</p>\n<h2>Herausnehmbarer Zahnersatz</h2>\n<p>Herausnehmbarer Zahnersatz ist dann die Lösung der Wahl, wenn bereits mehrere Zähne fehlen, diese durch Vorerkrankungen nicht mehr ausreichend belastbar sind und deshalb entfernt werden müssen oder eine Implantation nicht möglich oder nicht gewünscht wird. Beim herausnehmbaren Zahnersatz gibt es unterschiedliche Techniken, die wir Ihnen selbstverständlich gern in einem Beratungsgespräch vorstellen.</p>\n<h2>Kombinierter Zahnersatz</h2>\n<p>Hierbei handelt es sich um herausnehmbare Prothesen, die mit festsitzenden Elementen an natürlichen Zähnen oder Implantaten Halt finden.</p>\n<p>Diese Art der Versorgung hat einen deutlichen Vorteil gegenüber der einfachen Teilprothese, denn die Prothese mit Versorgung der verbliebenen Zähne zeichnet sich durch einen wesentlich festeren Sitz aus. Wir beraten Sie gern über die für Sie geeignete Behandlungsmethode.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/wurzelkanalbehandlung-step-by-step",
+      "url": "/leistungen/wurzelkanalbehandlung/wurzelkanalbehandlung-step-by-step",
+      "title": "Wurzelkanalbehandlung Step by Step",
+      "published": true,
+      "hide": false,
+      "sorting": 128,
+      "articles": [
+        {
+          "id": 51,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 152,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "title": "Wurzelkanal Step by Step",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 146,
+              "headline": {
+                "tag": "h1",
+                "text": "Wurzelkanalbehandlung Step by Step"
+              },
+              "type": "text",
+              "html": "<p>Zu Beginn wird der Zahn durch ein Spanngummi (Kofferdam) isoliert <a href=\"http://www.dget.de\" target=\"_blank\">www.dget.de</a>. Dadurch wird ein steriles Arbeiten ermöglicht.</p>\n<p>Mit Lupenbrille und Operationsmikroskop können die mikroskopisch feinen Strukturen durch die optische Vergrößerung sichtbar gemacht und behandelt werden. So ist es uns möglich, nach der Eröffnung des Zahnes (Trepanation) die einzelnen Wurzelkanaleingänge aufzufinden, um den Zahn erfolgreich zu versorgen.</p>\n<p>Im nächsten Arbeitsschritt müssen wir die Wurzelkanäle durchgängig aufbereiten. Hierbei werden die Bakterien bzw. alten Füllmaterialien aus den Wurzelkanalsystemen entfernt, die Kanäle gut gereinigt und erweitert. Das Reinigen erfolgt chemomechanisch, das heißt mit speziellen Instrumenten und Spüllösungen. Die Spüllösungen werden dabei erwärmt und mit Ultraschallinstrumenten im Kanal aktiviert, dadurch reinigen sie deutlich gründlicher.</p>\n<p>Da Wurzelkanäle in der Regel gekrümmt sind, ist der Einsatz hochflexibler Instrumente für die mechanische Aufbereitung eine Grundvorrausetzung. Vor allem im Seitenzahnbereich erschweren stark gekrümmte und sehr enge Kanäle die Reinigung. Der Einsatz der flexiblen rotierenden Nickel-Titan-Feilen hat sich für diese Behandlung als sehr zuverlässig herausgestellt.</p>\n<p>Ist der Zahn optimal aufbereitet und gespült, erfolgt eine medikamentöse Einlage im Zahn, um die noch verbliebenen Bakterien abzutöten.</p>\n<p>Zum Schluss werden die aufbereiteten Wurzelkanäle vollständig bis an die Wurzelspitze dicht verschlossen, um einer neuen Infektion der Kanäle vorzubeugen.</p>\n<p>In diesem sehr schwer zu bearbeitenden Kanalsystem verwenden wir nur die neuesten erprobten Techniken. Mit erwärmter plastisch verformter Guttapercha füllen wir die Wurzelkanäle dreidimensional ab und verschließen den Zahn. Das Ergebnis überprüfen wir mit einer Röntgenaufnahme. Dieses wird in regelmäßigen Abständen wiederholt, um den Heilungsverlauf zu kontrollieren.</p>\n<p>Um den in seiner Substanz geschwächten Zahn zu stabilisieren, wird anschließend ein Glasfaserstift eingesetzt und die Krone versorgt.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/hilfsmittel-kofferdam",
+      "url": "/leistungen/wurzelkanalbehandlung/hilfsmittel-kofferdam",
+      "title": "Hilfsmittel Kofferdam",
+      "published": true,
+      "hide": false,
+      "sorting": 256,
+      "articles": [
+        {
+          "id": 52,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 153,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "title": "Hilfsmittel Kofferdam",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 145,
+              "headline": {
+                "tag": "h1",
+                "text": "Hilfsmittel Kofferdam"
+              },
+              "type": "text",
+              "html": "<h4>Isoliertes bakterienfreies Arbeiten</h4>\n<p>Der Kofferdam ist ein bewährtes Hilfsmittel in der Zahnmedizin. Der in meiner Praxis verwendete Kofferdam besteht aus elastischem, synthetischem Polyisopren und ist somit auch für Allergiker gegen Latex geeignet.</p>\n<p>Das dünne Spanngummi isoliert den zu behandelnden Zahn von seiner Umgebung und damit auch von den vorhandenen Bakterien in der Mundhöhle.</p>\n<p>Kofferdam ist eine Grundvorrausetzung in meiner Praxis, um eine erfolgreiche Wurzelkanalbehandlung zu gewährleisten. Denn mit Kofferdam gelingt mir ein absolut sauberes, trockenes und keimfreies Arbeiten am Zahn, zugleich schützt der Kofferdam Patienten vor Aspiration von Instrumenten oder Spüllösungen.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/hilfsmittel-operationsmikroskop",
+      "url": "/leistungen/wurzelkanalbehandlung/hilfsmittel-operationsmikroskop",
+      "title": "Hilfsmittel Operationsmikroskop",
+      "published": true,
+      "hide": false,
+      "sorting": 384,
+      "articles": [
+        {
+          "id": 53,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 154,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "title": "Hilfsmittel Operationsmikroskop",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 147,
+              "headline": {
+                "tag": "h1",
+                "text": "Hilfsmittel Operationsmikroskop"
+              },
+              "type": "text",
+              "html": "<h4>Gute Sicht ist ein Muss!</h4>\n<p>Der erste Schritt einer erfolgreichen endodontischen Behandlung besteht darin, die Wurzelkanäle sichtbar zu machen. Hierbei ist nicht nur die genaue Kenntnis anatomischer Variationen der einzelnen Zähne wichtig, sondern auch die richtigen optischen Hilfsmittel.</p>\n<p>Vereinzelte Zugänge lassen sich schwierig finden, da sie stark verkalkt beziehungsweise verzweigt sind oder erst nach einigen Millimetern von anderen Kanälen abzweigen.</p>\n<p>Die Vergrößerung und Ausleuchtung durch ein Operationsmikroskop im Inneren Ihres Zahnes ermöglicht mir daher ein präzises Arbeiten. Durch den Einsatz des Mikroskops kann ich die komplexen Strukturen und Details Ihres Zahnes besser darstellen. Das garantiert eine perfekte Aufbereitung Ihres Zahnes und führt zum langfristigen Behandlungserfolg.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/nerventzuendung",
+      "url": "/leistungen/wurzelkanalbehandlung/nerventzuendung",
+      "title": "Behandlung von Nervenentzündungen",
+      "published": true,
+      "hide": false,
+      "sorting": 512,
+      "articles": [
+        {
+          "id": 54,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 155,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "title": "Nerventzündung",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 148,
+              "headline": {
+                "tag": "h1",
+                "text": "Behandlung von Nervenentzündungen – Pulpitis"
+              },
+              "type": "text",
+              "html": "<p>Eine tiefe Karies kann zu einer Entzündung der Pulpa (Nerv) führen. Oft bildet diese sich wegen des bakteriellen Reizes (Kariesbakterien) zurück. Auch wenn diese Reize durch eine Zahnfüllung entfernt werden, kann die Entzündung fortbestehen oder sich sogar verschlimmern. Die Folge sind leichte bis sehr starke Beschwerden, weil der Zahn extrem empfindlich auf Temperaturen oder leichte Berührungen reagiert.</p>\n<p>Schmerzmittel helfen in diesem Stadium kaum noch. Folglich ist eine schnelle zahnärztliche Hilfe erforderlich, zumal der Zahnnerv irreversibel geschädigt ist und in einer endodontischen Behandlung entfernt werden muss.</p>\n<p>In stark akuten Fällen kann eine Anästhesie erschwert sein, dennoch ist die Rettung Ihres natürlichen Zahnes mein erklärtes Ziel!</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/behandlung-wurzelspitzenentzuendung",
+      "url": "/leistungen/wurzelkanalbehandlung/behandlung-wurzelspitzenentzuendung",
+      "title": "Behandlung von Wurzelspitzenentzündungen",
+      "published": true,
+      "hide": false,
+      "sorting": 640,
+      "articles": [
+        {
+          "id": 55,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 156,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "title": "Behandlung Wurzelspitzenentzündung",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 149,
+              "headline": {
+                "tag": "h1",
+                "text": "Behandlung von Wurzelspitzenentzündungen"
+              },
+              "type": "text",
+              "html": "<p>Wenn der Nerv (Zahnpulpa) ohne Symptome oder Beschwerden abstirbt, geht die Entzündung meist auf den Bereich der Wurzelspitze über. Ihr Zahn fühlt sich dann „verlängert“ an, sodass Sie bei Zahnkontakt besonders empfindlich reagieren. In dieser Situation kann das Kauen zur Qual werden. <a href=\"http://www.erhaltedeinenzahn.de\" target=\"_blank\">www.erhaltedeinenzahn.de</a></p>\n<p>Ist bei einem schon endodontisch behandelten Zahn die Wurzelfüllung unvollständig oder wurden kleinste Seitenkanäle nicht gefunden beziehungsweise nicht ausreichend aufbereitet (siehe <a href=\"/leistungen/wurzelkanalbehandlung/wurzelkanalbehandlung-step-by-step\">Step by Step</a>), können sich die Bakterien in der Tiefe an der Wurzelspitze sammeln und dort eine oft sehr schmerzhafte Entzündung auslösen.</p>\n<p>Um Ihren Zahn zu erhalten, muss die entzündete Wurzelspitze schnell entlastet, vollständig gereinigt und aufbereitet werden. Ein Heilungserfolg hängt hier maßgeblich von der schnellstmöglichen Versorgung ab.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/revisionsbehandlung",
+      "url": "/leistungen/wurzelkanalbehandlung/revisionsbehandlung",
+      "title": "Revisionsbehandlung",
+      "published": true,
+      "hide": false,
+      "sorting": 768,
+      "articles": [
+        {
+          "id": 56,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 157,
+              "type": "image",
+              "image": {
+                "src": "/files/header/_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Revision",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 150,
+              "headline": {
+                "tag": "h1",
+                "text": "Revisionsbehandlung"
+              },
+              "type": "text",
+              "html": "<p>Auch schon wurzelkanalbehandelte Zähne können erneut Probleme bereiten. Bleiben bei der Wurzelkanalbehandlung noch Keime im Zahn zurück, kann es später zu einer eventuell chronischen oder auch akuten Entzündung an der Wurzelspitze kommen.</p>\n<p>Im Röntgenbild ist eine erfolgte Wurzelkanalbehandlung erkennbar. Die Wurzelfüllung kann auf dem Röntgenbild zu kurz erscheinen oder auch sehr ungleichmäßig sein. Dies ist ein Hinweis, dass Bakterien zurückgeblieben sind und eine erneute Entzündung verursacht haben.</p>\n<p>Hier sollte in jedem Falle eine neue Aufbereitung (Revision) der Wurzelkanäle stattfinden. Dabei wird das alte Füllmaterial aus dem Zahn entfernt, sorgfältig gereinigt und gespült sowie neu abgefüllt. (siehe <a href=\"/leistungen/wurzelkanalbehandlung\">Wurzelkanalbehandlung</a>)</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "pid": 12,
+      "type": "regular",
+      "alias": "leistungen/wurzelkanalbehandlung/frakturierte-instrumente-oder-stifte",
+      "url": "/leistungen/wurzelkanalbehandlung/frakturierte-instrumente-oder-stifte",
+      "title": "Frakturierte Instrumente oder Stifte",
+      "published": true,
+      "hide": false,
+      "sorting": 896,
+      "articles": [
+        {
+          "id": 57,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 158,
+              "type": "image",
+              "image": {
+                "src": "/files/header/wurzelbehandlung_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "title": "Frakturierte Instrumente oder Stifte",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 151,
+              "headline": {
+                "tag": "h1",
+                "text": "Fakturierte Instrumente oder Stifte"
+              },
+              "type": "text",
+              "html": "<p>Bei der Wurzelkanalbehandlung werden sehr feine Instrumente zur Aufbereitung benutzt. In seltenen Fällen können kleine Fragmente des frakturierten Instrumentes im Wurzelkanal steckenbleiben. Diese Fragmente müssen entfernt werden, da sie den weiteren Verlauf der Wurzelkanalbehandlung behindern.</p>\n<p>Das Entfernen der kleinen Fragmente oder Wurzelstifte, die zur Stabilisierung in den Zahn eingesetzt wurden, sind eine große Herausforderung. Hier ist sehr genaues fachliches Wissen und eine Spezialisierung im Bereich der Endodontie gefragt. Denn bei der Entfernung muss vor allem darauf geachtet werden, dass nicht mehr Substanz verloren geht als bei einer normalen Wurzelkanalbehandlung.</p>\n<p>Nur entsprechende Qualifikation, Materialien sowie Geräte garantieren eine erfolgreiche Behandlung. Unumgängliches Hilfsmittel hierbei ist das Operationsmikroskop. Das setzt einen routinierten Einsatz voraus.</p>\n<p>Mein Team und ich als Ihr behandelnder Zahnarzt sind auf solch kniffelige Behandlungen spezialisiert und können auf eine langjährige Erfahrung verweisen.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "pid": 12,
+      "type": "regular",
+      "alias": "WSR",
+      "url": "/WSR",
+      "title": "Wurzelspitzenresektion",
+      "published": true,
+      "hide": false,
+      "sorting": 1024,
+      "articles": [
+        {
+          "id": 62,
+          "title": "Header",
+          "column": "header",
+          "published": true,
+          "elements": [
+            {
+              "id": 179,
+              "type": "image",
+              "image": {
+                "src": "/files/header/wurzelbehandlung_LHA0317.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "",
+                "href": "",
+                "fullsize": false,
+                "floating": "above"
+              }
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "title": "Wurzelspitzenresektion",
+          "column": "main",
+          "published": true,
+          "elements": [
+            {
+              "id": 178,
+              "headline": {
+                "tag": "h1",
+                "text": "Wurzelspitzenresektion"
+              },
+              "type": "text",
+              "html": "<p>&nbsp;</p>\n<p>Die Wurzelspitzenresektion ist eine mikroskopisch minimalinvasive chirurgische Form der Endodontie und meist auch die letzte Möglichkeit den Zahn zu erhalten. Dies ist in den seltenen Fällen dann nötig, wenn sich der Schmerz und länger anhaltende Entzündungsherde am Knochen nach einer Wurzelkanalbehandlung nicht bessern.</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Statischer Next.js-Export auf Apache
+Options -MultiViews
+RewriteEngine On
+
+# /team -> /team.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# alte Contao-Startseite
+RewriteRule ^startseite(\.html)?$ / [R=301,L]
+
+ErrorDocument 404 /404.html

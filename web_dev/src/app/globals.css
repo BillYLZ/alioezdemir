@@ -1,0 +1,208 @@
+@import "tailwindcss";
+
+@theme {
+  /* Markenfarben: Praxis-Violett der alten Seite, vertieft zu Aubergine */
+  --color-plum-950: #1a1020;
+  --color-plum-900: #24142f;
+  --color-plum-800: #331d45;
+  --color-plum-700: #462667;
+  --color-plum-600: #5d3387;
+  --color-plum-500: #7a4fa6;
+  --color-plum-300: #c3acdb;
+  --color-plum-100: #ece4f4;
+  --color-plum-50: #f6f1fa;
+
+  --color-cream: #f8f5f0;
+  --color-sand: #ede6db;
+  --color-stone: #8a8190;
+  --color-ink: #1d1722;
+  --color-muted: #625a69;
+  --color-mint: #2f9e74;
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-marquee: marquee 40s linear infinite;
+  @keyframes reveal-up {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+  }
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+/* Fraunces: optische Groesse begrenzen – bei 144 werden e/a-Querstriche haarfein */
+.font-display,
+.prose-praxis h1,
+.prose-praxis h2 {
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 48, "SOFT" 30;
+  overflow-wrap: break-word;
+}
+/* lange deutsche Komposita ("Wurzelkanalbehandlung") auf schmalen Screens trennen */
+@media (max-width: 640px) {
+  .font-display,
+  .prose-praxis {
+    hyphens: auto;
+  }
+}
+
+::selection {
+  background: var(--color-plum-600);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-plum-600);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal {
+    animation: none !important;
+  }
+}
+
+@layer components {
+  /* Scroll-Reveal ohne JavaScript: CSS scroll-driven animations.
+     Browser ohne Unterstuetzung zeigen den Inhalt sofort. */
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry var(--reveal-end, 40%);
+    }
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-plum-600);
+  }
+  .eyebrow::before {
+    content: "";
+    width: 2rem;
+    height: 1px;
+    background: currentColor;
+  }
+
+  /* Fliesstext aus dem CMS */
+  .prose-praxis {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--color-muted);
+  }
+  .prose-praxis > * + * {
+    margin-top: 1.1em;
+  }
+  .prose-praxis h1,
+  .prose-praxis h2 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    color: var(--color-ink);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  .prose-praxis h1 {
+    font-size: clamp(2rem, 3vw, 2.75rem);
+  }
+  .prose-praxis h2 {
+    font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+    margin-top: 1.8em;
+  }
+  .prose-praxis h3,
+  .prose-praxis h4 {
+    font-weight: 700;
+    color: var(--color-ink);
+    font-size: 1.15rem;
+    margin-top: 1.6em;
+  }
+  .prose-praxis strong {
+    color: var(--color-ink);
+    font-weight: 700;
+  }
+  .prose-praxis a {
+    color: var(--color-plum-600);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--color-plum-300);
+    text-underline-offset: 4px;
+    transition: text-decoration-color 0.2s;
+  }
+  .prose-praxis a:hover {
+    text-decoration-color: currentColor;
+  }
+  .prose-praxis ul {
+    display: grid;
+    gap: 0.6em;
+  }
+  .prose-praxis ul > li {
+    position: relative;
+    padding-left: 1.75rem;
+  }
+  .prose-praxis ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0.25rem;
+    top: 0.72em;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 9999px;
+    background: var(--color-plum-300);
+  }
+  .prose-praxis ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+  }
+  .prose-praxis table {
+    width: 100% !important;
+    height: auto !important;
+    border-collapse: collapse;
+  }
+  .prose-praxis td {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-sand);
+    vertical-align: top;
+  }
+  .prose-praxis td + td {
+    padding-left: 1rem;
+    text-align: right;
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+  .prose-praxis .mod_artwork2 {
+    display: none;
+  }
+}

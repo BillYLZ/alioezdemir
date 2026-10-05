@@ -1,0 +1,32 @@
+# --- GIZLI / HASSAS: asla commit etme ---
+# Eski Contao/Joomla siteleri: localconfig.php (dbPass, encryptionKey, installPassword),
+# SQL dump'lar (tl_user hash'leri, newsletter alicilari), zip yedekler
+/data/old/
+*.sql
+*.sql.gz
+*.zip
+localconfig.php
+configuration.php
+.env*
+*.pem
+*.key
+
+# --- Uretilen / indirilen veri ---
+/data/_cache/
+*.log
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Misc ---
+.DS_Store

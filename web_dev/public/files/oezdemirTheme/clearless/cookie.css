@@ -1,0 +1,11 @@
+body{
+	margin-bottom:50px;
+}
+.cookie-message{display: none;width:100%;position:fixed;bottom:0px;font-size:16px;z-index: 1000;}
+.message{float:left;}
+.message a{text-decoration:underline;}
+.buttonyes{float:right;}
+.buttonno{float:right;}
+.message,.buttonyes,.buttonno{padding:13px;}
+.buttonyes,.buttonno{cursor:pointer;}
+.buttonyes:hover,.buttonno:hover{cursor:pointer;background: rgba(54, 25, 25, .5);opacity: 0.6;}

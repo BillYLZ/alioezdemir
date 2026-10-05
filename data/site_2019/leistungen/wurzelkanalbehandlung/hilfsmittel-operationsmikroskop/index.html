@@ -1,0 +1,31 @@
+<br><strong>Warning</strong>: mysqli::real_connect(): (HY000/1045): Access denied for user '80991m64128_3'@'localhost' (using password: YES) in <strong>system/modules/core/library/Contao/Database/Mysqli.php</strong> on line <strong>46</strong>
+<pre style="margin:11px 0 0">
+#0 [internal function]: __error(2, 'mysqli::real_co...', '/www/htdocs/w01...', 46, Array)
+#1 system/modules/core/library/Contao/Database/Mysqli.php(46): mysqli->real_connect('localhost', '80991m64128_3', '80991m64128', '80991m64128_3', 3306, '')
+#2 system/modules/core/library/Contao/Database.php(81): Contao\Database\Mysqli->connect()
+#3 system/modules/core/library/Contao/Database.php(165): Contao\Database->__construct(Array)
+#4 [internal function]: Contao\Database::getInstance()
+#5 system/modules/core/library/Contao/System.php(140): call_user_func(Array)
+#6 system/modules/core/library/Contao/User.php(158): Contao\System->import('Database')
+#7 system/modules/core/classes/FrontendUser.php(62): Contao\User->__construct()
+#8 system/modules/core/library/Contao/User.php(220): Contao\FrontendUser->__construct()
+#9 [internal function]: Contao\User::getInstance()
+#10 system/modules/core/library/Contao/System.php(140): call_user_func(Array)
+#11 system/modules/core/controllers/FrontendIndex.php(31): Contao\System->import('FrontendUser', 'User')
+#12 index.php(19): Contao\FrontendIndex->__construct()
+#13 {main}
+</pre><br><strong>Fatal error</strong>: Uncaught exception <strong>Exception</strong> with message <strong>Access denied for user '80991m64128_3'@'localhost' (using password: YES)</strong> thrown in <strong>system/modules/core/library/Contao/Database/Mysqli.php</strong> on line <strong>50</strong>
+<pre style="margin:11px 0 0">
+#0 system/modules/core/library/Contao/Database.php(81): Contao\Database\Mysqli->connect()
+#1 system/modules/core/library/Contao/Database.php(165): Contao\Database->__construct(Array)
+#2 [internal function]: Contao\Database::getInstance()
+#3 system/modules/core/library/Contao/System.php(140): call_user_func(Array)
+#4 system/modules/core/library/Contao/User.php(158): Contao\System->import('Database')
+#5 system/modules/core/classes/FrontendUser.php(62): Contao\User->__construct()
+#6 system/modules/core/library/Contao/User.php(220): Contao\FrontendUser->__construct()
+#7 [internal function]: Contao\User::getInstance()
+#8 system/modules/core/library/Contao/System.php(140): call_user_func(Array)
+#9 system/modules/core/controllers/FrontendIndex.php(31): Contao\System->import('FrontendUser', 'User')
+#10 index.php(19): Contao\FrontendIndex->__construct()
+#11 {main}
+</pre>
