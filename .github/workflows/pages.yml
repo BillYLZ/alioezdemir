@@ -1,0 +1,54 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            web_alt/package-lock.json
+            web_dev/package-lock.json
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build web_alt + web_dev
+        run: |
+          for app in web_alt web_dev; do
+            base="${{ steps.pages.outputs.base_path }}/$app"
+            (cd "$app" && npm ci && BASE_PATH="$base" npm run build)
+            node scripts/pages-rewrite.mjs "$app/out" "$base"
+          done
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/docs
+          cp pages/index.html _site/
+          cp docs/*.png _site/docs/
+          cp -r web_alt/out _site/web_alt
+          cp -r web_dev/out _site/web_dev
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+      - id: deployment
+        uses: actions/deploy-pages@v4

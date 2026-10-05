@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zahnarztpraxis Özdemir – Demo</title>
+  <meta name="description" content="oezdemir-die-praxis.de için iki Next.js sürümü: eski Contao görünümünün kopyası ve yeni tasarım.">
+  <style>
+    :root {
+      --bg: #f7f4f0; --card: #fff; --ink: #1d1a24; --muted: #6b6573;
+      --line: #e6e0d8; --accent: #5b2d8a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #16141a; --card: #201d26; --ink: #f1edf5; --muted: #a59fae; --line: #332f3a; --accent: #b892e0; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 1080px; margin: 0 auto; padding: 56px 16px 48px; }
+    h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin: 0 0 12px; letter-spacing: -0.01em; }
+    .lead { color: var(--muted); max-width: 640px; margin: 0 0 40px; }
+    .grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    a.card {
+      display: flex; flex-direction: column; text-decoration: none; color: inherit;
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+      transition: transform .15s, box-shadow .15s, border-color .15s;
+    }
+    a.card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 10px 30px rgb(0 0 0 / .08); }
+    a.card img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border-bottom: 1px solid var(--line); }
+    .body { padding: 18px 20px 22px; }
+    .tag { font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--accent); }
+    h2 { font-size: 20px; margin: 8px 0 6px; }
+    .body p { margin: 0; color: var(--muted); font-size: 15px; }
+    .go { margin-top: 14px; font-weight: 600; color: var(--accent); }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+    footer a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Zahnarztpraxis Özdemir</h1>
+    <p class="lead">
+      oezdemir-die-praxis.de (Peine) için iki Next.js sürümü. İkisi de eski Contao veritabanından
+      çıkarılan aynı içeriği (27 sayfa, görseller, PDF'ler) kullanır.
+    </p>
+
+    <div class="grid">
+      <a class="card" href="web_alt/">
+        <img src="docs/web_alt-desktop.png" alt="web_alt: eski Contao görünümü" loading="lazy">
+        <div class="body">
+          <span class="tag">web_alt</span>
+          <h2>Eski görünüm</h2>
+          <p>2016–2022 Contao sitesinin birebir kopyası: başlık, slider, menü ve sütunlar eski master.less'e göre.</p>
+          <div class="go">Demoyu aç →</div>
+        </div>
+      </a>
+      <a class="card" href="web_dev/">
+        <img src="docs/web_dev-desktop.png" alt="web_dev: yeni tasarım" loading="lazy">
+        <div class="body">
+          <span class="tag">web_dev</span>
+          <h2>Yeni tasarım</h2>
+          <p>Modern, mobil öncelikli yeniden tasarım: canlı açık/kapalı durumu, çalışma saatleri, onaylı harita.</p>
+          <div class="go">Demoyu aç →</div>
+        </div>
+      </a>
+    </div>
+
+    <footer>
+      Kaynak kodu: <a href="https://github.com/BillYLZ/alioezdemir">github.com/BillYLZ/alioezdemir</a>
+    </footer>
+  </main>
+</body>
+</html>
